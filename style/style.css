@@ -115,44 +115,13 @@ h2 {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 32px;
-		justify-items: stretch;
 	}
 
-	.wrapper-website {
+	.block-wrapper {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
 		width: 364px;
-		padding: 32px;
-		border-radius: 20px;
-		background: #191919;
-	}
-
-	.wrapper-ui {
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-		width: 364px;
-		padding: 32px;
-		border-radius: 20px;
-		background: #191919;
-	}
-
-	.wrapper-branding {
-		display: flex;
-		width: 364px;
-		flex-direction: column;
-		gap: 16px;
-		padding: 32px;
-		border-radius: 20px;
-		background: #191919;
-	}
-
-	.wrapper-about-me {
-		display: flex;
-		width: 364px;
-		flex-direction: column;
-		gap: 16px;
 		padding: 32px;
 		border-radius: 20px;
 		background: #191919;
@@ -317,10 +286,6 @@ h2 {
 		padding: 16px;
 	}
 
-	.grid-content {
-		width: 100vw;
-	}
-
 	.btn-see {
 		display: flex;
 		align-items: center;
@@ -334,26 +299,24 @@ h2 {
 		cursor: pointer;
 	}
 
-	.wrapper-website {
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 16px;
+		align-items: stretch;
+	}
+
+	.block-wrapper {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
 		padding: 32px;
 		height: 284px;
-		width: 100%;
+		width: auto;
 		border-radius: 20px;
 		background: #191919;
 	}
-
-	.block-wrapper {
-		display: flex;
-		height: 284px;
-		width: 100%;
-		border-radius: 20px;
-		background: #191919;
-		overflow: hidden;
-	}
-
 
 
 	.block-wrapper-title {
