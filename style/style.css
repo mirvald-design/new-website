@@ -281,9 +281,12 @@ h2 {
 		margin: 0;
 	}
 
-	.header {
-		width: 100vw;
-		padding: 16px;
+	.header-area {
+		display: flex;
+		align-items: center;
+		height: 100vh;
+		padding-right: 16px;
+		padding-left: 16px;
 	}
 
 	.btn-see {
