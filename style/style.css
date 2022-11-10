@@ -285,8 +285,15 @@ h2 {
 	}
 
 	.block-wrapper {
+		display: flex;
+		height: 284px;
 		width: 100vw;
+		border-radius: 20px;
+		background: #191919;
+		overflow: hidden;
+		padding-left: 32px;
 	}
+
 
 	h1 {
 		margin: 0;
