@@ -42,6 +42,10 @@ h2 {
 	margin: 0;
 }
 
+img {
+	margin: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
 
 	.footer {
@@ -125,19 +129,57 @@ h2 {
 	}
 
 	.block-wrapper {
+		display: flex;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
 		justify-content: space-between;
-		padding-left: 32px;
+		padding: 32px;
+
 	}
 
-	.block-wrapper-img {
-		position: relative;
-		top: 0px;
-		left: 0px;
+	.block-wrapper-website {
+		height: 284px;
+		width: 100%;
+		border-radius: 20px;
+		background: #191919;
+		justify-content: space-between;
+		padding: 32px;
+		background-image: url(/img/websites.png);
 	}
+
+	.block-wrapper-ui {
+		height: 284px;
+		width: 100%;
+		border-radius: 20px;
+		background: #191919;
+		justify-content: space-between;
+		padding: 32px;
+		background-image: url(/img/ui.png);
+	}
+
+	.block-wrapper-branding {
+		height: 284px;
+		width: 100%;
+		border-radius: 20px;
+		background: #191919;
+		justify-content: space-between;
+		padding: 32px;
+		background-image: url(/img/branding.png);
+	}
+
+	.block-wrapper-about-me {
+		height: 284px;
+		width: 100%;
+		border-radius: 20px;
+		background: #191919;
+		justify-content: space-between;
+		padding: 32px;
+		background-image: url(/img/about-me.png);
+	}
+
+
 
 	.block-wrapper-mail {
 		display: flex;
@@ -150,12 +192,7 @@ h2 {
 		padding-left: 32px;
 	}
 
-	.block-wrapper-title {
-		display: flex;
-		margin-top: 32px;
-		flex-direction: column;
-		gap: 32px;
-	}
+
 
 	.block-wrapper-title p {
 		color: #fff;
@@ -308,20 +345,15 @@ h2 {
 	.block-wrapper {
 		display: flex;
 		height: 284px;
-		width: 100vw;
+		width: 100%;
 		border-radius: 20px;
 		background: #191919;
 		overflow: hidden;
-		padding-left: 32px;
-		float: left
 	}
 
 	.wb-img {
-		position: relative;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-
+		width: 100%;
+		display: block;
 	}
 
 	.block-wrapper-title {
