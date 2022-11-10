@@ -255,6 +255,7 @@ h2 {
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+
 	/* body {
 		padding: 16px;
 	} */
@@ -278,11 +279,11 @@ h2 {
 
 	.header {
 		width: 100vw;
+		padding: 16px;
 	}
 
 	.grid-content {
 		width: 100vw;
-		padding: 16px;
 	}
 
 	.block-wrapper {
