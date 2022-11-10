@@ -45,10 +45,6 @@ h2 {
 	margin: 0;
 }
 
-img {
-	margin: 0;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
 
 
@@ -151,7 +147,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/websites.png);
 	}
 
 	.wrapper-ui {
@@ -163,7 +158,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/ui.png);
 	}
 
 	.wrapper-branding {
@@ -175,7 +169,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/branding.png);
 	}
 
 	.wrapper-about-me {
@@ -187,7 +180,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/about-me.png);
 	}
 
 	.wrapper-mail {
@@ -199,7 +191,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/mail.png);
 	}
 
 	.wrapper-mail p {
@@ -364,7 +355,6 @@ img {
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		background-image: url(/img/websites.png);
 	}
 
 	.block-wrapper {
@@ -376,10 +366,7 @@ img {
 		overflow: hidden;
 	}
 
-	.wb-img {
-		width: 100%;
-		display: block;
-	}
+
 
 	.block-wrapper-title {
 		width: 100%;
