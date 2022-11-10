@@ -10,6 +10,18 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #111;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	margin: 0;
 	font-size: 16px;
@@ -34,9 +46,8 @@ h2 {
 .footer {
 	display: flex;
 	height: 80px;
-	border-top: 1px solid rgba(64, 64, 64, 0.04)
+	border-top: 1px solid rgba(64, 64, 64, 0.04);
 }
-
 
 .footer-container {
 	display: flex;
@@ -60,32 +71,13 @@ h2 {
 	height: 100vh;
 }
 
-
-
-
-
-
 .main {
 	overflow: hidden;
 	display: grid;
-	grid-template-areas: "header", "content", "footer";
+	grid-template-areas: 'header', 'content', 'footer';
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
 }
-
-a {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-	color: #111;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-
 
 .logo {
 	font-size: 18px;
@@ -97,7 +89,7 @@ ul {
 	top: 0px;
 	width: 100%;
 	background-color: #fff;
-	border-bottom: 1px solid rgba(1, 1, 1, .04);
+	border-bottom: 1px solid rgba(1, 1, 1, 0.04);
 	height: 80px;
 }
 
@@ -236,18 +228,21 @@ ul {
 	border-radius: 20px;
 }
 
-
 .btn-in:hover {
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: radial-gradient(circle at 30% 107%,
+			#fdf497 0%,
+			#fdf497 5%,
+			#fd5949 45%,
+			#d6249f 60%,
+			#285aeb 90%);
 }
 
 .btn-tw:hover {
-	background: #4A99E9;
+	background: #4a99e9;
 }
 
 .btn-li:hover {
 	background: #0073b1;
-
 }
 
 .btn-see a {
@@ -256,4 +251,50 @@ ul {
 
 .mail p {
 	color: #fff;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	/* body {
+		padding: 16px;
+	} */
+
+	.top-nav {
+		display: none;
+	}
+
+	.footer {
+		width: 100vw;
+		align-items: center;
+	}
+
+	.footer-container {
+		display: block;
+	}
+
+	.content {
+		margin: 0;
+	}
+
+	.header {
+		width: 100vw;
+	}
+
+	.grid-content {
+		width: 100vw;
+	}
+
+	.block-wrapper {
+		width: 100vw;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 34px;
+		line-height: 46px;
+	}
+
+	p {
+		font-size: 14px;
+	}
 }
