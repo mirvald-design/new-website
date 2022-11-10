@@ -27,12 +27,15 @@ p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 32px;
+	padding: 0;
 }
 
 h1 {
+	margin: 0;
 	font-size: 72px;
 	font-weight: 700;
 	line-height: 92px;
+	padding: 0;
 }
 
 h2 {
@@ -64,10 +67,16 @@ img {
 	}
 
 
-	.header {
+	.header-area {
 		display: flex;
 		align-items: center;
 		height: 100vh;
+	}
+
+	.header-container {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
 	}
 
 	.main {
@@ -80,7 +89,7 @@ img {
 	}
 
 
-	.top-nav {
+	.nav {
 		display: flex;
 		position: fixed;
 		padding: 16px;
@@ -90,25 +99,25 @@ img {
 		background-color: #0A0A0A;
 		border-radius: 32px;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
 	.logo {
-		font-size: 18px;
+		font-size: 14px;
 		color: #fff;
 	}
 
-	.nav-category {
+	.nav-area {
 		display: flex;
 		gap: 16px;
 	}
 
-	.nav-category-items {
-		text-transform: lowercase;
+	.nav-area-items {
+		font-size: 14px;
 		color: #fff;
 	}
 
-	.nav-category-items a:hover {
+	.nav-area-items a:hover {
 		color: rgba(64, 64, 64, 0.5);
 	}
 
@@ -139,57 +148,68 @@ img {
 
 	}
 
-	.block-wrapper-website {
+	.wrapper-website {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		justify-content: space-between;
-		padding: 32px;
 		background-image: url(/img/websites.png);
 	}
 
-	.block-wrapper-ui {
+	.wrapper-ui {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		justify-content: space-between;
-		padding: 32px;
 		background-image: url(/img/ui.png);
 	}
 
-	.block-wrapper-branding {
+	.wrapper-branding {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		justify-content: space-between;
-		padding: 32px;
 		background-image: url(/img/branding.png);
 	}
 
-	.block-wrapper-about-me {
+	.wrapper-about-me {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		justify-content: space-between;
-		padding: 32px;
 		background-image: url(/img/about-me.png);
 	}
 
-
-
-	.block-wrapper-mail {
+	.wrapper-mail {
 		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 32px;
 		height: 284px;
 		width: 100%;
 		border-radius: 20px;
 		background: #191919;
-		justify-content: space-between;
-		overflow: hidden;
-		padding-left: 32px;
+		background-image: url(/img/mail.png);
+	}
+
+	.wrapper-mail p {
+		color: #fff;
 	}
 
 
@@ -198,7 +218,7 @@ img {
 		color: #fff;
 	}
 
-	.contact-container {
+	.social-container {
 		display: flex;
 		align-items: center;
 		gap: 16px;
