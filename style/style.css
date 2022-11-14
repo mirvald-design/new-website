@@ -68,6 +68,10 @@ h2 {
 		gap: 32px;
 	}
 
+	.content {
+		margin-top: 211px;
+	}
+
 	.main {
 		align-items: center;
 		max-width: 760px;
