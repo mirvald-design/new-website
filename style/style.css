@@ -112,6 +112,7 @@ h2 {
 
 	.nav-area-items:hover {
 		color: #F7FF68;
+		text-decoration: 2px solid underline;
 	}
 
 	.flex-container {
