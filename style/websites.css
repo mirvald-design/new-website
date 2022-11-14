@@ -1,0 +1,11 @@
+.w-layout-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.w-layout-grid img {
+	max-width: 364px;
+	height: 442px;
+	border-radius: 20px;
+}
