@@ -110,8 +110,8 @@ h2 {
 		color: #fff;
 	}
 
-	.nav-area-items a:hover {
-		color: rgba(64, 64, 64, 0.5);
+	.nav-area-items:hover {
+		color: #F7FF68;
 	}
 
 	.flex-container {
