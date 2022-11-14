@@ -1,11 +1,16 @@
-.w-layout-grid {
+.w-flex {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 32px;
+	margin-top: 174px;
 }
 
-.w-layout-grid img {
+.w-flex img {
 	max-width: 364px;
 	height: 442px;
 	border-radius: 20px;
+}
+
+.w-flex p {
+	max-width: 364px;
 }
