@@ -6,11 +6,25 @@
 }
 
 .w-flex img {
-	max-width: 364px;
 	height: 442px;
 	border-radius: 20px;
 }
 
 .w-flex p {
 	max-width: 364px;
+	line-height: 28px;
+	font-size: 16px;
+
+}
+
+.w-flex-container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.w-flex-header {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
 }
