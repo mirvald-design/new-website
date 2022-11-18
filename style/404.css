@@ -1,7 +1,14 @@
 	@media screen and (min-width: 1024px) and (max-width: 2560px) {
-		.main-404 {
+		.dev-main {
 			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			align-items: center;
+		}
+
+		.dev-container {
+			display: flex;
+			flex-direction: column;
 			width: 760px;
 			margin-left: auto;
 			margin-right: auto;
@@ -10,7 +17,7 @@
 	}
 
 	@media screen and (min-width: 320px) and (max-width: 1024px) {
-		.main-404 {
+		.dev-container {
 			display: flex;
 			align-items: center;
 			max-width: 343px;
