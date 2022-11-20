@@ -45,10 +45,6 @@ h2 {
 	margin: 0;
 }
 
-img {
-	max-width: 100%;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
 
 
@@ -94,7 +90,8 @@ img {
 		top: 32px;
 		height: 78px;
 		width: 760px;
-		background-color: #0A0A0A;
+		background-color: #fff;
+		border: 1px solid rgba(25, 25, 25, 0.1);
 		border-radius: 32px;
 		align-items: center;
 		justify-content: space-between;
@@ -107,7 +104,7 @@ img {
 
 	.logo {
 		font-size: 14px;
-		color: #fff;
+		color: #191919;
 	}
 
 	.nav-area {
@@ -117,11 +114,11 @@ img {
 
 	.nav-area-items {
 		font-size: 14px;
-		color: #fff;
+		color: #191919;
 	}
 
 	.nav-area-items:hover {
-		color: #F7FF68;
+		color: #686dff;
 		text-decoration: 2px solid underline;
 	}
 
@@ -145,6 +142,10 @@ img {
 		border: 1px solid rgba(25, 25, 25, 0.1);
 	}
 
+	.block-wrapper:hover {
+		box-shadow: 0 5px 20px 0 rgba(25, 25, 25, 0.1);
+		transform: translate(0, -10px);
+	}
 
 	.social-container {
 		display: flex;
