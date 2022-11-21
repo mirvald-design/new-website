@@ -212,7 +212,8 @@ h2 {
 		padding: 12px;
 		background: #fff;
 		border-radius: 20px;
-		border: 1px solid rgba(25, 25, 25, 0.1);
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	.btn-dr:hover {
@@ -226,7 +227,8 @@ h2 {
 		padding: 12px;
 		background: #fff;
 		border-radius: 20px;
-		border: 1px solid rgba(25, 25, 25, 0.1);
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	.btn-tw {
@@ -236,7 +238,8 @@ h2 {
 		padding: 12px;
 		background: #fff;
 		border-radius: 20px;
-		border: 1px solid rgba(25, 25, 25, 0.1);
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	.btn-li {
@@ -246,7 +249,8 @@ h2 {
 		padding: 12px;
 		background: #fff;
 		border-radius: 20px;
-		border: 1px solid rgba(25, 25, 25, 0.1);
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
+		transition: all 0.3s ease-out 0s;
 	}
 
 	.btn-in:hover {
