@@ -186,7 +186,6 @@ h2 {
 		height: 36px;
 		gap: 10px;
 		will-change: box-shadow, transform;
-
 	}
 
 	.btn-see:hover {
@@ -332,6 +331,20 @@ h2 {
 		background: #fff;
 	}
 
+	.btn-see {
+		display: flex;
+		align-items: center;
+		width: fit-content;
+		border: none;
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
+		transition: all 0.3s ease-out 0s;
+		padding: 0px 12px;
+		border-radius: 18px;
+		height: 36px;
+		gap: 10px;
+		will-change: box-shadow, transform;
+	}
+
 	.footer {
 		width: 100vw;
 		align-items: center;
@@ -348,18 +361,7 @@ h2 {
 
 
 
-	.btn-see {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: #fff;
-		padding: 12px, 16px, 12px, 16px;
-		border-radius: 32px;
-		height: 40px;
-		width: 167px;
-		gap: 10px;
-		cursor: pointer;
-	}
+
 
 
 
