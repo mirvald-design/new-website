@@ -1,0 +1,15 @@
+.branding-container {
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+	gap: 12px;
+	background-color: #fff;
+	border-radius: 32px;
+	border: 1px solid rgb(240 242 248);
+}
+
+.branding-container img {
+	max-width: 224px;
+	max-height: 224px;
+	border-radius: 20px;
+}
