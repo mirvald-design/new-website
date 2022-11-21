@@ -1,8 +1,11 @@
+.wrap-websites {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .w-flex {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 32px;
-	margin-top: 174px;
 }
 
 .w-flex img {
@@ -18,12 +21,9 @@
 }
 
 .w-flex-container {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
-	gap: 32px;
-}
-
-.w-flex-header {
 	display: flex;
 	flex-direction: column;
 	padding: 32px;
@@ -32,6 +32,8 @@
 	gap: 12px;
 	background-color: #FFF;
 }
+
+
 
 .img-container {
 	display: flex;
