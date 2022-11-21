@@ -79,7 +79,9 @@ h2 {
 	}
 
 	.content {
-		margin-top: 211px;
+		background-color: #fff;
+		border-radius: 32px;
+		padding: 32px;
 	}
 
 	.main {
