@@ -34,6 +34,7 @@ h1 {
 }
 
 p {
+	flex: none;
 	margin: 0;
 	font-size: 14px;
 	font-weight: 300;
@@ -141,7 +142,6 @@ h2 {
 		flex-direction: column;
 		transition: all 0.3s ease-out 0s;
 		width: 364px;
-		height: 100%;
 		gap: 32px;
 		flex-grow: 3;
 		padding: 32px;
