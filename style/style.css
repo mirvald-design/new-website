@@ -345,6 +345,12 @@ h2 {
 		will-change: box-shadow, transform;
 	}
 
+	.social-container {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
 	.footer {
 		width: 100vw;
 		align-items: center;
