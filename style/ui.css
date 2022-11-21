@@ -1,11 +1,4 @@
-.u-flex {
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	gap: 32px;
-	margin-top: 174px;
-	flex-basis: auto;
-}
+.u-flex {}
 
 .u-flex img {
 	width: 232px;
