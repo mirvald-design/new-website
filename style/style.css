@@ -72,18 +72,20 @@ h2 {
 	.header-container p {
 		font-size: 24px;
 		line-height: 48px;
+		font-weight: 400;
 	}
 
 	.title-services {
 		font-size: 32px;
 		line-height: 64px;
 		font-weight: 600;
+		margin-bottom: 64px;
 	}
 
 	.title-services p {
 		font-size: 24px;
 		line-height: 48px;
-		font-weight: 500;
+		font-weight: 400;
 	}
 
 	.content {
@@ -148,16 +150,17 @@ h2 {
 
 	.block-wrapper {
 		display: flex;
+		flex-direction: column;
+		transition: all 0.3s ease-out 0s;
 		width: 364px;
 		height: fit-content;
-		flex-direction: column;
 		gap: 16px;
-		flex-grow: 5;
+		flex-grow: 2;
 		padding: 32px;
 		background: #fff;
 		border-radius: 32px;
-		color: #000;
-		border: 1px solid rgba(25, 25, 25, 0.1);
+		color: #191919;
+		box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
 	}
 
 	.block-wrapper:hover {
