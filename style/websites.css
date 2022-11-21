@@ -7,7 +7,7 @@
 
 .w-flex img {
 	height: 442px;
-	border-radius: 20px;
+	border-radius: 32px;
 }
 
 .w-flex p {
@@ -29,7 +29,6 @@
 	padding: 32px;
 	border: 1px solid rgb(240 242 248);
 	border-radius: 32px;
-	flex-wrap: wrap;
 	gap: 12px;
 	background-color: #FFF;
 }
