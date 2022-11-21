@@ -297,13 +297,27 @@ h2 {
 		display: none;
 	}
 
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		padding: 16px;
+		align-items: stretch;
+	}
+
 	.header {
 		display: flex;
 		flex-direction: column;
-		gap: 32px;
-		padding: 32px;
-		border-radius: 32px;
+		gap: 16px;
+		padding: 16px;
+		border-radius: 16px;
 		background-color: #fff;
+		border: 1px solid rgb(240 242 248);
+	}
+
+	.title-services {
+		background-color: #fff;
+		padding: 16px;
+		border-radius: 16px;
 		border: 1px solid rgb(240 242 248);
 	}
 
@@ -336,13 +350,6 @@ h2 {
 		cursor: pointer;
 	}
 
-	.flex-container {
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-		padding: 16px;
-		align-items: stretch;
-	}
 
 	.block-wrapper {
 		display: flex;
