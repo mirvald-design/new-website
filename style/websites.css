@@ -29,15 +29,13 @@
 	padding: 32px;
 	border: 1px solid rgb(240 242 248);
 	border-radius: 32px;
-	width: 100%;
 	flex-wrap: wrap;
-	gap: 16px;
+	gap: 12px;
 	background-color: #FFF;
 }
 
 .img-container {
 	display: flex;
+	gap: 10px;
 	flex-wrap: wrap;
-	gap: 12px;
-	flex-grow: 3;
 }
