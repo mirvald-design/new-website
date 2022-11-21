@@ -321,6 +321,17 @@ h2 {
 		border: 1px solid rgb(240 242 248);
 	}
 
+	.block-wrapper {
+		display: flex;
+		color: #191919;
+		border: 1px solid rgb(240 242 248);
+		flex-direction: column;
+		gap: 16px;
+		padding: 16px;
+		border-radius: 16px;
+		background: #fff;
+	}
+
 	.footer {
 		width: 100vw;
 		align-items: center;
@@ -351,24 +362,6 @@ h2 {
 	}
 
 
-	.block-wrapper {
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-		flex-grow: 1;
-		padding: 32px;
-		height: fit-content;
-		border-radius: 20px;
-		background: #191919;
-	}
-
-	.block-wrapper h2 {
-		color: #fff;
-	}
-
-	.block-wrapper p {
-		color: #fff;
-	}
 
 
 	.block-wrapper-title {
