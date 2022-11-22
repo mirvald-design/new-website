@@ -49,7 +49,6 @@
 	.wrap-websites {
 		display: flex;
 		flex-wrap: wrap;
-		padding: 16px;
 	}
 
 	.w-flex {
