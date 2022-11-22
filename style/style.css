@@ -53,8 +53,12 @@ h2 {
 
 
 	.footer-container {
-		height: 80px;
 		display: flex;
+		width: 100%;
+		background-color: #fff;
+		border-radius: 32px;
+		padding: 32px;
+		border: 1px solid rgb(240 242 248);
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -296,7 +300,6 @@ h2 {
 		display: flex;
 		padding: 16px;
 		top: 16px;
-		height: 78px;
 		background: #fff;
 		border: 1px solid rgb(240 242 248);
 		border-radius: 16px;
@@ -369,8 +372,13 @@ h2 {
 	}
 
 	.footer-container {
-		padding-left: 16px;
-		padding-right: 16px;
+		display: flex;
+		flex-direction: column;
+		background-color: #fff;
+		border-radius: 16px;
+		padding: 16px;
+		border: 1px solid rgb(240 242 248);
+		justify-content: space-between;
 	}
 
 	.content {
