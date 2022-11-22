@@ -298,6 +298,7 @@ h2 {
 
 	.nav {
 		display: flex;
+		width: 100%;
 		padding: 16px;
 		top: 16px;
 		background: #fff;
@@ -373,6 +374,7 @@ h2 {
 
 	.footer-container {
 		display: flex;
+		width: 100%;
 		flex-direction: column;
 		background-color: #fff;
 		border-radius: 16px;
