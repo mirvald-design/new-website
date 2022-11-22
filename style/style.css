@@ -339,6 +339,7 @@ h2 {
 	.block-wrapper {
 		display: flex;
 		color: #191919;
+		width: 100%;
 		border: 1px solid rgb(240 242 248);
 		flex-direction: column;
 		gap: 16px;

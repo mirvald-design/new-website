@@ -26,10 +26,10 @@
 	.branding-container {
 		display: flex;
 		flex-direction: column;
-		padding: 32px;
+		padding: 16px;
 		gap: 12px;
 		background-color: #fff;
-		border-radius: 32px;
+		border-radius: 16px;
 		border: 1px solid rgb(240 242 248);
 	}
 
