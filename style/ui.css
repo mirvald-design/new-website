@@ -34,10 +34,6 @@
 		padding: 32px;
 	}
 
-	.container-carry img {
-		height: 300px;
-		width: 150px;
-	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
