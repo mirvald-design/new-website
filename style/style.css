@@ -55,7 +55,6 @@ img {
 
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
 
-
 	.footer-container {
 		display: flex;
 		width: 100%;
@@ -300,6 +299,10 @@ img {
 		font-weight: 400;
 	}
 
+	.main {
+		padding: 16px;
+	}
+
 	.nav {
 		display: flex;
 		width: 100%;
@@ -319,7 +322,6 @@ img {
 	.flex-container {
 		display: flex;
 		flex-direction: column;
-		padding: 16px;
 		align-items: stretch;
 	}
 
