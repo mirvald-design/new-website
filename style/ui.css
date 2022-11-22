@@ -34,6 +34,19 @@
 		padding: 32px;
 	}
 
+	.ui-wrapper {
+		display: flex;
+		flex-direction: column;
+		transition: all 0.3s ease-out 0s;
+		gap: 32px;
+		flex-grow: 3;
+		padding: 32px;
+		background-color: #fff;
+		border-radius: 32px;
+		color: #191919;
+		border: 1px solid rgb(240 242 248);
+	}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
