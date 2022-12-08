@@ -381,7 +381,7 @@ h3 {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
-		padding: 16px;
+		padding: 32px 16px;
 		background-color: #fff;
 		border: 1px solid #1919191A;
 	}
@@ -396,6 +396,15 @@ h3 {
 		background-color: #fff;
 		padding: 16px;
 		border: 1px solid rgb(240 242 248);
+	}
+
+	.services {
+		background-color: #191919;
+		color: #fff;
+		width: 100%;
+		padding: 16px;
+		border: 1px solid rgb(240 242 248);
+		background-image: url(/img/image.png);
 	}
 
 	.block-wrapper {
