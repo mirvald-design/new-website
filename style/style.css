@@ -43,10 +43,16 @@ p {
 }
 
 h2 {
-	font-size: 28px;
-	font-weight: 48px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 40px;
+	font-weight: 500;
 	margin: 0;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 32px;
 }
 
 img {
@@ -119,6 +125,7 @@ img {
 	.services-block-item {
 		width: 50%;
 	}
+
 
 	.services-block {
 		display: flex;
