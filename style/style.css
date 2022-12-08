@@ -175,6 +175,12 @@ h3 {
 		justify-content: space-between;
 	}
 
+	.nav-part2 {
+		display: flex;
+		gap: 16px;
+		align-items: center;
+	}
+
 	.nav div.btn-see {
 		background: #fff;
 		padding: 16px;
