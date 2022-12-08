@@ -37,9 +37,8 @@
 	.ui-wrapper {
 		display: flex;
 		flex-direction: column;
+		gap: 16px;
 		transition: all 0.3s ease-out 0s;
-		gap: 32px;
-		flex-grow: 3;
 		padding: 32px;
 		background-color: #fff;
 		border-radius: 32px;
@@ -49,8 +48,17 @@
 
 	.ui-wrapper-img {
 		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
 		gap: 16px;
 	}
+
+	.ui-wrapper img {
+		max-width: 339px;
+	}
+
+
+
 
 }
 
