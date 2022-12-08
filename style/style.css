@@ -113,6 +113,16 @@ h3 {
 		background-image: url(/img/image.png);
 	}
 
+	.title-services {
+		background-color: #fff;
+		padding: 32px;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 36px;
+		border: 1px solid rgb(240 242 248);
+		border-radius: 32px;
+	}
+
 	.services-grid {
 		display: flex;
 		flex-direction: column;
