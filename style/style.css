@@ -388,6 +388,7 @@ h3 {
 
 	.header {
 		display: flex;
+		height: 100vh;
 		flex-direction: column;
 		gap: 16px;
 		padding: 32px 16px;
