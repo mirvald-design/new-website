@@ -67,6 +67,12 @@ img {
 		align-items: center;
 	}
 
+	.available-btn {
+		background-color: #DAD4FF;
+		border-radius: 32px;
+		padding: 8px 16px;
+		width: fit-content;
+	}
 
 	.header {
 		display: flex;
@@ -76,6 +82,12 @@ img {
 		border-radius: 32px;
 		background-color: #fff;
 		border: 1px solid rgb(240 242 248);
+	}
+
+	.subtitle {
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 500;
 	}
 
 	.title-services {
