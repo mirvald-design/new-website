@@ -5,6 +5,10 @@ body {
 	background: #F3F3F3;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 *,
 *:before,
 *:after {
@@ -207,6 +211,7 @@ h3 {
 		color: #686dff;
 		text-decoration: 2px solid underline;
 	}
+
 
 	.flex-container {
 		display: flex;
