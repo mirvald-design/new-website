@@ -3,6 +3,7 @@
 	.wrap-websites {
 		display: flex;
 		flex-wrap: wrap;
+		gap: 32px;
 	}
 
 	.w-flex {
