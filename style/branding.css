@@ -1,4 +1,10 @@
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
+	.wrap-branding {
+		display: flex;
+		gap: 32px;
+		flex-direction: column;
+	}
+
 	.branding-container {
 		display: flex;
 		flex-direction: column;
@@ -20,7 +26,6 @@
 	.wrap-branding {
 		display: flex;
 		flex-direction: column;
-		padding: 16px;
 	}
 
 	.branding-container {
@@ -29,7 +34,6 @@
 		padding: 16px;
 		gap: 12px;
 		background-color: #fff;
-		border-radius: 16px;
 		border: 1px solid rgb(240 242 248);
 	}
 
